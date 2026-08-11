@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mendapatkan nilai dan value dengan JQuery</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Get Function JQuery</h1>
+    <input type="text" name="nama" class="nama">
+    <button id="tombol">KLIK</button>
+</body>
+<Script type="text/javascript">
+    $(document).ready(function(){
+        $('#tombol').click(function(){
+            var nama = $(".nama").attr();
+            alert(nama);
+        });
+    });
+</Script>
+</html>

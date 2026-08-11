@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jquery Dasar</title>
+    <Script type="text/javascript" src="jquery.js"></Script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Effect JQuery</h1>
+    <Button id="tombol">Tampilkan kotak</Button>
+    <Button id="tombol2">Sembunyikan kotak</Button>
+    <div class="box"></div>
+</body> <script type="text/javascript">
+    $(document).ready(function(){
+        $('#tombol').click(function(){
+            $('.box').show();
+        });
+        $('#tombol2').click(function(){
+            $('.box').hide();
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Menambakan CSS dengan JQuery</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>add and remove Function JQuery</h1>
+    <button class="tombol" id="tambah">Tambahkan CSS</button>
+    <div class="lingkaran"></div>
+</body>
+<Script type="text/javascript">
+    $(document).ready(function(){
+        $('#tambah').click(function(){
+            $('.lingkaran').css("background","blue");
+        });
+    });
+</Script>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Menetapkan nilai dan value dengan JQuery</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Set Function JQuery</h1>
+    <button id="tombol">KLIK</button>
+    <input type="text" name="nama" class="nama">
+    <p class="nama"></p>
+</body>
+<Script type="text/javascript">
+    $(document).ready(function(){
+        $('#tombol').click(function(){
+            $('.nama').val("PPLG SMK N 3 KENDAL");
+        });
+    });
+</Script>
+</html>
